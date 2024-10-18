@@ -1,4 +1,5 @@
-// Стратегия для автобуса
+package exercise1;
+
 class BusCostCalculationStrategy implements ICostCalculationStrategy {
     @Override
     public double calculateCost(double distance, String serviceClass, int passengers, boolean hasDiscount) {

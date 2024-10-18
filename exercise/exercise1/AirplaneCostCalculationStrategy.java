@@ -1,4 +1,5 @@
-// Стратегия для самолета
+package exercise1;
+
 class AirplaneCostCalculationStrategy implements ICostCalculationStrategy {
     @Override
     public double calculateCost(double distance, String serviceClass, int passengers, boolean hasDiscount) {
